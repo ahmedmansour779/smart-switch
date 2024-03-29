@@ -1,5 +1,6 @@
 {
     "en": {
+        "lang": "Arabic",
         "smartProduct": "Smart Products",
         "applications": "Applications",
         "protocols": "Protocols",
@@ -9,6 +10,7 @@
         "signUp": "Sign Up"
     },
     "ar": {
+        "lang": "انجليزي",
         "smartProduct": "المنتجات الذكية",
         "applications": "التطبيقات",
         "protocols": "البروتوكولات",

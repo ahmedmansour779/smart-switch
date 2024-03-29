@@ -1,16 +1,21 @@
 import { useSelector } from "react-redux"
+import { Link } from "react-router-dom"
 
 export default function Register() {
     const { login, signUp } = useSelector((state) => state.translations.translations)
 
     return (
         <div className="flex gap-4">
-            <div className="bg-seconder text-primary border border-solid border-white py-2 px-4 rounded-2xl">
+            <Link
+            to="/login"
+            className="bg-seconder text-primary border border-solid border-white py-2 px-4 rounded-2xl">
                 {login}
-            </div>
-            <div className="bg-primary text-seconder border border-solid border-white py-2 px-4 rounded-2xl">
+            </Link>
+            <Link
+            to="/signUp"
+            className="bg-primary text-seconder border border-solid border-white py-2 px-4 rounded-2xl">
                 {signUp}
-            </div>
+            </Link>
         </div>
     )
 }

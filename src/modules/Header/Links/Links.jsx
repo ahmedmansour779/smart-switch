@@ -1,6 +1,7 @@
 import { IconPointFilled } from "@tabler/icons-react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
+import { setLanguage } from "../../../store/translation/translationSlice";
 
 export default function Links() {
     const {
@@ -8,12 +9,24 @@ export default function Links() {
         applications,
         protocols,
         servicePacks,
-        contactUs
+        contactUs,
+        lang
     } = useSelector((state) => state.translations.translations)
+    const language = useSelector((state) => state.translations.language)
     const location = useLocation().pathname;
+    const dispatch = useDispatch();
+
+    const handelLanguage = () => {
+        language == "en" && dispatch(setLanguage("ar"))
+        language == "ar" && dispatch(setLanguage("en"))
+    }
 
     return (
-        <div className="flex gap-4 justify-center">
+        <div
+            style={{
+                direction: language == "ar" ? "rtl" : "ltr"
+            }}
+            className="flex gap-4 justify-center">
             <div className="flex flex-col gap-1 text-seconder items-center">
                 <Link to="/">{smartProduct}</Link>
                 {
@@ -44,6 +57,11 @@ export default function Links() {
                     location == "/contactUs" && <IconPointFilled size={10} />
                 }
             </div>
+            <p
+                onClick={handelLanguage}
+                className="text-seconder hover:cursor-pointer">
+                {lang}
+            </p>
         </div>
     )
 }

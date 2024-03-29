@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         primary: ['Poppins', 'sans-serif'],
+        seconder: ["Inter", 'sans-serif']
       },
     },
   },
