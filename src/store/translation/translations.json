@@ -1,0 +1,20 @@
+{
+    "en": {
+        "smartProduct": "Smart Products",
+        "applications": "Applications",
+        "protocols": "Protocols",
+        "servicePacks": "Service Packs",
+        "contactUs": "Contact Us",
+        "login": "Login",
+        "signUp": "Sign Up"
+    },
+    "ar": {
+        "smartProduct": "المنتجات الذكية",
+        "applications": "التطبيقات",
+        "protocols": "البروتوكولات",
+        "servicePacks": "حزم الخدمة",
+        "contactUs": "اتصل بنا",
+        "login": "تسجيل الدخول",
+        "signUp": "اشتراك"
+    }
+}
