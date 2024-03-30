@@ -7,7 +7,14 @@
         "servicePacks": "Service Packs",
         "contactUs": "Contact Us",
         "login": "Login",
-        "signUp": "Sign Up"
+        "signUp": "Sign Up",
+        "contact": "Contact",
+        "Links": "Links",
+        "faqs": "FAQs",
+        "termsAndConditions": "Terms and Conditions",
+        "privacyPolicy": "Privacy Policy",
+        "submitDeals": "Submit Deals",
+        "msgFooter": "SmartSwitch is a click and collect company that will revolutionize the online shopping experiment by delivering a positive, reliable experience to each and every one of our clients while offering outstanding value in the marketplace. "
     },
     "ar": {
         "lang": "انجليزي",
@@ -17,6 +24,13 @@
         "servicePacks": "حزم الخدمة",
         "contactUs": "اتصل بنا",
         "login": "تسجيل الدخول",
-        "signUp": "اشتراك"
+        "signUp": "اشتراك",
+        "contact": "اتصال",
+        "Links": "روابط",
+        "faqs": "الاسئله الشائعه",
+        "termsAndConditions": "الأحكام والشروط",
+        "privacyPolicy": "سياسة الخصوصية",
+        "submitDeals": "تقديم العروض",
+        "msgFooter": "SmartSwitch هي شركة انقر واجمع ستعمل على إحداث ثورة في تجربة التسوق عبر الإنترنت من خلال تقديم تجربة إيجابية وموثوقة لكل عميل من عملائنا مع تقديم قيمة رائعة في السوق."
     }
 }
