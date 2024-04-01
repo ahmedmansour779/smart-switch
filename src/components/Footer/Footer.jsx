@@ -14,7 +14,7 @@ export default function Footer() {
             }}
             className="bg-primary text-seconder py-12 font-primary flex flex-col gap-6"
         >
-            <div className="container mx-auto flex gap-2 justify-between">
+            <div className="container md:flex-row flex-col mx-auto flex md:gap-2 gap-4 justify-between">
                 <ContactFooter />
                 <LinksFooter />
                 <p className="flex-1 flex items-center leading-8">

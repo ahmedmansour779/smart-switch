@@ -26,7 +26,7 @@ export default function Links() {
             style={{
                 direction: language == "ar" ? "rtl" : "ltr"
             }}
-            className="flex gap-4 justify-center">
+            className="gap-4 justify-center hidden md:flex">
             <div className="flex flex-col gap-1 text-seconder items-center">
                 <Link to="/">{smartProduct}</Link>
                 {
