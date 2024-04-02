@@ -5,11 +5,13 @@ export default {
     extend: {
       colors: {
         'primary': '#3BA3DB',
-        'seconder': '#fff'
+        'seconder': '#fff',
+        'light': '#8E8E8E'
       },
       textColor: {
         'primary': '#3BA3DB',
-        'seconder': '#fff'
+        'seconder': '#fff',
+        'light': '#8E8E8E'
       },
       fontFamily: {
         primary: ['Poppins', 'sans-serif'],

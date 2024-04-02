@@ -14,7 +14,15 @@
         "termsAndConditions": "Terms and Conditions",
         "privacyPolicy": "Privacy Policy",
         "submitDeals": "Submit Deals",
-        "msgFooter": "SmartSwitch is a click and collect company that will revolutionize the online shopping experiment by delivering a positive, reliable experience to each and every one of our clients while offering outstanding value in the marketplace. "
+        "msgFooter": "SmartSwitch is a click and collect company that will revolutionize the online shopping experiment by delivering a positive, reliable experience to each and every one of our clients while offering outstanding value in the marketplace. ",
+        "headTitleContactUs": "Calculate your quote",
+        "descTitleContactUs": "Safety is too important to be complicated. That’s why we’ve made designing. setting up and controlling your home’s security as easy as possible. See what safe should feel like.",
+        "step1": "Step 01",
+        "questionFormContactUs": "What is your property type?",
+        "homeOwner": "Home Owner",
+        "interiorDesign": "Interior Design",
+        "business": "Business",
+        "nextStep": "Next Step"
     },
     "ar": {
         "lang": "انجليزي",
@@ -31,6 +39,14 @@
         "termsAndConditions": "الأحكام والشروط",
         "privacyPolicy": "سياسة الخصوصية",
         "submitDeals": "تقديم العروض",
-        "msgFooter": "SmartSwitch هي شركة انقر واجمع ستعمل على إحداث ثورة في تجربة التسوق عبر الإنترنت من خلال تقديم تجربة إيجابية وموثوقة لكل عميل من عملائنا مع تقديم قيمة رائعة في السوق."
+        "msgFooter": "SmartSwitch هي شركة انقر واجمع ستعمل على إحداث ثورة في تجربة التسوق عبر الإنترنت من خلال تقديم تجربة إيجابية وموثوقة لكل عميل من عملائنا مع تقديم قيمة رائعة في السوق.",
+        "headTitleContactUs": "احسب الاقتباس الخاص بك",
+        "descTitleContactUs": "السلامة مهمة جدًا بحيث لا يمكن أن تكون معقدة. لهذا السبب قمنا بالتصميم. يعد إعداد أمان منزلك والتحكم فيه أمرًا سهلاً قدر الإمكان. انظر كيف يجب أن تشعر بالأمان.",
+        "step1": "الخطوة 01",
+        "questionFormContactUs": "ما هو نوع العقار الخاص بك؟",
+        "homeOwner": "مالك المنزل",
+        "interiorDesign": "تصميم داخلي",
+        "business": "عمل",
+        "nextStep": "الخطوة التالية"
     }
 }

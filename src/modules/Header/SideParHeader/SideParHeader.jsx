@@ -28,7 +28,7 @@ export default function SideParHeader() {
             <div className="md:hidden">
                 <IconMenu2 onClick={() => setShow(true)} color="white" />
             </div>
-            <div className={`h-screen w-screen bg-primary top-0 ${show ? "left-0" : "left-[100vw] "} fixed transition-all duration-500 ease-in-out`} onClick={() => setShow(false)}>
+            <div className={`h-screen w-screen bg-primary top-0 ${show ? "left-0" : "left-[100vw] "} fixed transition-all duration-500 ease-in-out z-50`} onClick={() => setShow(false)}>
                 <div className="absolute right-4 top-4">
                     <IconX color="white" />
                 </div>
