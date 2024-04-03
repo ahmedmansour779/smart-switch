@@ -22,7 +22,15 @@
         "homeOwner": "Home Owner",
         "interiorDesign": "Interior Design",
         "business": "Business",
-        "nextStep": "Next Step"
+        "nextStep": "Next Step",
+        "titleHeroHomeSection": "Smart home devices direct from the factories.👌",
+        "msgHeroHomeSection": "Place your order today and get it directly from the factory without any hassle.",
+        "tryNow": "Try Now",
+        "trueOneMsgHeroHomeSection": "Connected to various smart devices",
+        "trueTwoMsgHeroHomeSection": "Controlling your home in real time",
+        "airConditioner": "Air Conditioner",
+        "threeDevice": "3 Device",
+        "ourClients": "Our clients"
     },
     "ar": {
         "lang": "انجليزي",
@@ -47,6 +55,14 @@
         "homeOwner": "مالك المنزل",
         "interiorDesign": "تصميم داخلي",
         "business": "عمل",
-        "nextStep": "الخطوة التالية"
+        "nextStep": "الخطوة التالية",
+        "titleHeroHomeSection": "أجهزة منزلية ذكية من المصانع مباشرة.👌",
+        "msgHeroHomeSection": "قدم طلبك اليوم واحصل عليه مباشرة من المصنع دون أي متاعب.",
+        "tryNow": "جرب الآن",
+        "trueOneMsgHeroHomeSection": "متصلة بالأجهزة الذكية المختلفة",
+        "trueTwoMsgHeroHomeSection": "السيطرة على منزلك في الوقت الحقيقي",
+        "airConditioner": "مكيف هواء",
+        "threeDevice": "3 اجهزه",
+        "ourClients": "عملائنا"
     }
 }

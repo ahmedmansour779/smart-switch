@@ -1,5 +1,9 @@
+import HeroHomeSection from "../../modules/Home/HeroHomeSection";
+
 export default function Home() {
     return (
-        <div>Home</div>
+        <div>
+            <HeroHomeSection />
+        </div>
     )
 }
