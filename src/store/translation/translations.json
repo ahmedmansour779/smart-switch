@@ -41,7 +41,8 @@
         "installationDone": "Installation done",
         "userWorldwide": "User Worldwide",
         "countries": "Countries",
-        "titleExampleOfWork": "Examples of work and types of scenarios:"
+        "titleExampleOfWork": "Examples of work and types of scenarios:",
+        "msgWhatWeCanControl": "What we can control?"
     },
     "ar": {
         "lang": "انجليزي",
@@ -85,6 +86,7 @@
         "installationDone": "تم التثبيت",
         "userWorldwide": "المستخدم في جميع أنحاء العالم",
         "countries": "بلدان",
-        "titleExampleOfWork": "أمثلة على العمل وأنواع السيناريوهات:"
+        "titleExampleOfWork": "أمثلة على العمل وأنواع السيناريوهات:",
+        "msgWhatWeCanControl": "ما الذي يمكننا السيطرة عليه؟"
     }
 }
