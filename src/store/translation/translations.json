@@ -40,7 +40,8 @@
         "ourAchievementsMsg": "We have done over thousands of installation services",
         "installationDone": "Installation done",
         "userWorldwide": "User Worldwide",
-        "countries": "Countries"
+        "countries": "Countries",
+        "titleExampleOfWork": "Examples of work and types of scenarios:"
     },
     "ar": {
         "lang": "انجليزي",
@@ -83,6 +84,7 @@
         "ourAchievementsMsg": "لقد قمنا بأكثر من الآلاف من خدمات التثبيت",
         "installationDone": "تم التثبيت",
         "userWorldwide": "المستخدم في جميع أنحاء العالم",
-        "countries": "بلدان"
+        "countries": "بلدان",
+        "titleExampleOfWork": "أمثلة على العمل وأنواع السيناريوهات:"
     }
 }
