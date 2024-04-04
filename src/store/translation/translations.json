@@ -30,7 +30,11 @@
         "trueTwoMsgHeroHomeSection": "Controlling your home in real time",
         "airConditioner": "Air Conditioner",
         "threeDevice": "3 Device",
-        "ourClients": "Our clients"
+        "ourClients": "Our clients",
+        "ourProducts": "Our Products Range",
+        "ourProductsMsg": "Enhance security with our cutting- edge CCTV cameras, crafted for modern surveillance demands",
+        "viewDetails": "View details",
+        "viewAll": "View all"
     },
     "ar": {
         "lang": "انجليزي",
@@ -63,6 +67,10 @@
         "trueTwoMsgHeroHomeSection": "السيطرة على منزلك في الوقت الحقيقي",
         "airConditioner": "مكيف هواء",
         "threeDevice": "3 اجهزه",
-        "ourClients": "عملائنا"
+        "ourClients": "عملائنا",
+        "ourProducts": "مجموعة منتجاتنا",
+        "ourProductsMsg": "عزز الأمان باستخدام كاميرات CCTV المتطورة لدينا، والمصممة لتلبية متطلبات المراقبة الحديثة",
+        "viewDetails": "عرض التفاصيل",
+        "viewAll": "عرض الكل"
     }
 }
