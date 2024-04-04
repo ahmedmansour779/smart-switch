@@ -34,7 +34,13 @@
         "ourProducts": "Our Products Range",
         "ourProductsMsg": "Enhance security with our cutting- edge CCTV cameras, crafted for modern surveillance demands",
         "viewDetails": "View details",
-        "viewAll": "View all"
+        "viewAll": "View all",
+        "ourAchievements": "OUR ACHIEVEMENTS",
+        "ourAchievementsTitle": "Over 5 Years of achievements",
+        "ourAchievementsMsg": "We have done over thousands of installation services",
+        "installationDone": "Installation done",
+        "userWorldwide": "User Worldwide",
+        "countries": "Countries"
     },
     "ar": {
         "lang": "انجليزي",
@@ -71,6 +77,12 @@
         "ourProducts": "مجموعة منتجاتنا",
         "ourProductsMsg": "عزز الأمان باستخدام كاميرات CCTV المتطورة لدينا، والمصممة لتلبية متطلبات المراقبة الحديثة",
         "viewDetails": "عرض التفاصيل",
-        "viewAll": "عرض الكل"
+        "viewAll": "عرض الكل",
+        "ourAchievements": "إنجازاتنا",
+        "ourAchievementsTitle": "أكثر من 5 سنوات من الإنجازات",
+        "ourAchievementsMsg": "لقد قمنا بأكثر من الآلاف من خدمات التثبيت",
+        "installationDone": "تم التثبيت",
+        "userWorldwide": "المستخدم في جميع أنحاء العالم",
+        "countries": "بلدان"
     }
 }
