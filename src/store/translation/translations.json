@@ -91,7 +91,11 @@
         "welcomeBack": "Welcome Back",
         "emailAddress": "Email Address",
         "password": "Password",
-        "forgotPassword": "Forgot Password?"
+        "forgotPassword": "Forgot Password?",
+        "hello": "Hello!",
+        "msgSignUp": "Sign Up to Get Started",
+        "fullName": "Full Name",
+        "register": "Register"
     },
     "ar": {
         "lang": "انجليزي",

@@ -1,10 +1,11 @@
 import { useSelector } from "react-redux"
 import SloganForm from "../../components/Form/SloganForm"
 import Header from "../../components/Header"
-import LoginForm from "../../modules/Login/LoginForm"
+import SignUpForm from "../../modules/SignUp/SignUpForm"
 
-export default function LogIn() {
+export default function SignUp() {
     const lang = useSelector((state) => state.translations.language)
+
     return (
         <div
             style={{
@@ -16,7 +17,7 @@ export default function LogIn() {
             </div>
             <div className="flex">
                 <SloganForm />
-                <LoginForm />
+                <SignUpForm />
             </div>
         </div>
     )
