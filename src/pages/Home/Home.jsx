@@ -1,3 +1,5 @@
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header";
 import ExampleOfWork from "../../modules/Home/ExampleOfWork";
 import HeroHomeSection from "../../modules/Home/HeroHomeSection/HeroHomeSection";
 import OurAchievements from "../../modules/Home/OurAchievements";
@@ -8,14 +10,18 @@ import WhatWeCanControl from "../../modules/Home/WhatWeCanControl";
 
 export default function Home() {
     return (
-        <div>
-            <HeroHomeSection />
-            <StunningFeatures />
-            <WhatWeCanControl />
-            <ExampleOfWork />
-            <OurAchievements />
-            <OurProducts />
-            <OurClient />
-        </div>
+        <>
+            <Header />
+            <div>
+                <HeroHomeSection />
+                <StunningFeatures />
+                <WhatWeCanControl />
+                <ExampleOfWork />
+                <OurAchievements />
+                <OurProducts />
+                <OurClient />
+            </div>
+            <Footer />
+        </>
     )
 }

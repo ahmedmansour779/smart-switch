@@ -86,7 +86,12 @@
         "allPrice": "All Price",
         "underTweeny": "Under $20",
         "filterBy": "Filter by",
-        "onePlus": "One Plus"
+        "onePlus": "One Plus",
+        "helloAgain": "Hello Again!",
+        "welcomeBack": "Welcome Back",
+        "emailAddress": "Email Address",
+        "password": "Password",
+        "forgotPassword": "Forgot Password?"
     },
     "ar": {
         "lang": "انجليزي",
@@ -175,6 +180,11 @@
         "allPrice": "كل الأسعار",
         "underTweeny": "أقل من 20 دولارًا",
         "filterBy": "مصنف بواسطة",
-        "onePlus": "ون بلس"
+        "onePlus": "ون بلس",
+        "helloAgain": "مرحبا مجددا!",
+        "welcomeBack": "مرحبًا بعودتك",
+        "emailAddress": "عنوان البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "forgotPassword": "هل نسيت كلمة السر؟"
     }
 }
