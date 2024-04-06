@@ -1,4 +1,5 @@
 import ExampleOfWork from "../../modules/Home/ExampleOfWork";
+import HeroHomeSection from "../../modules/Home/HeroHomeSection/HeroHomeSection";
 import OurAchievements from "../../modules/Home/OurAchievements";
 import OurClient from "../../modules/Home/OurClient/OurClient";
 import OurProducts from "../../modules/Home/OurProducts";
@@ -8,7 +9,7 @@ import WhatWeCanControl from "../../modules/Home/WhatWeCanControl";
 export default function Home() {
     return (
         <div>
-            {/* <HeroHomeSection /> */}
+            <HeroHomeSection />
             <StunningFeatures />
             <WhatWeCanControl />
             <ExampleOfWork />
