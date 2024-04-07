@@ -12,6 +12,7 @@
   "dependencies": {
     "@mantine/carousel": "^7.7.1",
     "@mantine/core": "^7.7.1",
+    "@mantine/dates": "^7.7.1",
     "@mantine/hooks": "^7.7.1",
     "@reduxjs/toolkit": "^2.2.2",
     "@tabler/icons": "^3.1.0",

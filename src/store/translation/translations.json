@@ -125,7 +125,10 @@
         "subject": "Subject",
         "message": "Message (Optional)",
         "sendMessage": "Send message",
-        "hr": "hr"
+        "hr": "hr",
+        "msgRequest": "Check out availability and book the date and time that works for you",
+        "selectDateAndTime": "Select date and time",
+        "requestToBook": "Request to book"
     },
     "ar": {
         "lang": "انجليزي",
@@ -253,6 +256,9 @@
         "subject": "موضوع",
         "message": "الرسالة (اختياري)",
         "sendMessage": "أرسل رسالة",
-        "hr": "س"
+        "hr": "س",
+        "msgRequest": "تحقق من التوفر وحجز التاريخ والوقت المناسب لك",
+        "selectDateAndTime": "حدد التاريخ والوقت",
+        "requestToBook": "طلب الحجز"
     }
 }

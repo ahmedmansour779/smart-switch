@@ -5,6 +5,7 @@ import Cart from './pages/Cart'
 import ContactUs from './pages/ContactUs'
 import Home from './pages/Home/Home'
 import LogIn from './pages/LogIn'
+import Request from './pages/Request'
 import ServicePacks from './pages/ServicePacks'
 import SignUp from './pages/SignUp'
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/signUp' element={<SignUp />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/servicePacks' element={<ServicePacks />} />
+          <Route path='/request' element={<Request />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+}
+
+.mantine-DatePicker-calendarHeader {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.m_2351eeb0:first-child {
+    transform: rotate(90deg) translate(-15px, -41px);
+    flex: 1;
+    -webkit-transform: rotate(90deg) translate(-15px, -41px);
+    -moz-transform: rotate(90deg) translate(-15px, -41px);
+    -ms-transform: rotate(90deg) translate(-15px, -41px);
+    -o-transform: rotate(90deg) translate(-15px, -41px);
+}
+
+.m_2351eeb0:last-child {
+    transform: rotate(-90deg) translate(18px, -54px);
+    flex: 1;
+    -webkit-transform: rotate(-90deg) translate(18px, -54px);
+    -moz-transform: rotate(-90deg) translate(18px, -54px);
+    -ms-transform: rotate(-90deg) translate(18px, -54px);
+    -o-transform: rotate(-90deg) translate(18px, -54px);
+}
+
+.mantine-DatePicker-levelsGroup {
+    background-color: #3ba3db;
+    color: #fff;
+    padding: 20px;
+}
+
+.mantine-UnstyledButton-root {
+    flex: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
