@@ -128,7 +128,17 @@
         "hr": "hr",
         "msgRequest": "Check out availability and book the date and time that works for you",
         "selectDateAndTime": "Select date and time",
-        "requestToBook": "Request to book"
+        "requestToBook": "Request to book",
+        "helpCenter": "HELP CENTER",
+        "msgHelpCenter": "How we can help you!",
+        "msgSearch": "Enter your question or keyword",
+        "search": "Search",
+        "msgContactUsOne": "Don’t find your answer.",
+        "msgContactUsTwo": "Contact with us",
+        "callUsNow": "Call us now",
+        "msgCallUsNow": "we are available online from 9:00 AM to 5:00 PM (GMT95:45) Talk with use now",
+        "callNow": "Call now",
+        "chatWithUs": "Chat with us"
     },
     "ar": {
         "lang": "انجليزي",
@@ -259,6 +269,16 @@
         "hr": "س",
         "msgRequest": "تحقق من التوفر وحجز التاريخ والوقت المناسب لك",
         "selectDateAndTime": "حدد التاريخ والوقت",
-        "requestToBook": "طلب الحجز"
+        "requestToBook": "طلب الحجز",
+        "helpCenter": "مركز المساعدة",
+        "msgHelpCenter": "كيف يمكننا مساعدتك!",
+        "msgSearch": "أدخل سؤالك أو الكلمة الرئيسية",
+        "search": "يبحث",
+        "msgContactUsOne": "لا تجد إجابتك.",
+        "msgContactUsTwo": "اتصل بنا",
+        "callUsNow": "اتصل بنا الآن",
+        "msgCallUsNow": "نحن متواجدون عبر الإنترنت من الساعة 9:00 صباحًا حتى 5:00 مساءً (GMT95:45) تحدث مع الاستخدام الآن",
+        "callNow": "اتصل الان",
+        "chatWithUs": "دردش معنا"
     }
 }

@@ -3,6 +3,7 @@ import './App.css'
 import './index.css'
 import Cart from './pages/Cart'
 import ContactUs from './pages/ContactUs'
+import ContactUsTwo from './pages/ContactUsTwo'
 import Home from './pages/Home/Home'
 import LogIn from './pages/LogIn'
 import Request from './pages/Request'
@@ -22,6 +23,7 @@ function App() {
           <Route path='/cart' element={<Cart />} />
           <Route path='/servicePacks' element={<ServicePacks />} />
           <Route path='/request' element={<Request />} />
+          <Route path='/ContactUsTwo' element={<ContactUsTwo />} />
         </Routes>
       </BrowserRouter>
     </>
