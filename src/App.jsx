@@ -5,6 +5,7 @@ import ContactUs from './pages/ContactUs'
 import Home from './pages/Home/Home'
 import LogIn from './pages/LogIn'
 import SignUp from './pages/SignUp'
+import Cart from './pages/Cart'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/contactUs' element={<ContactUs />} />
           <Route path='/login' element={<LogIn />} />
-          <Route path='/SignUp' element={<SignUp />} />
+          <Route path='/signUp' element={<SignUp />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </>

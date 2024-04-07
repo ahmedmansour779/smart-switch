@@ -95,7 +95,20 @@
         "hello": "Hello!",
         "msgSignUp": "Sign Up to Get Started",
         "fullName": "Full Name",
-        "register": "Register"
+        "register": "Register",
+        "shoppingCard": "Shopping Card",
+        "products": "Products",
+        "price": "Price",
+        "quantity": "Quantity",
+        "subTotal": "Sub-Total",
+        "returnToShop": "Return to Shop",
+        "updateCart": "Update cart",
+        "cardTotals": "Card Totals",
+        "shipping": "Shipping",
+        "discount": "Discount",
+        "tax": "Tax",
+        "total": "Total",
+        "proceedToCheckout": "Proceed to Checkout"
     },
     "ar": {
         "lang": "انجليزي",
@@ -189,6 +202,23 @@
         "welcomeBack": "مرحبًا بعودتك",
         "emailAddress": "عنوان البريد الإلكتروني",
         "password": "كلمة المرور",
-        "forgotPassword": "هل نسيت كلمة السر؟"
+        "forgotPassword": "هل نسيت كلمة السر؟",
+        "hello": "مرحبًا!",
+        "msgSignUp": "التوقيع على بدء",
+        "fullName": "الاسم الكامل",
+        "register": "يسجل",
+        "shoppingCard": "بطاقة تسوق",
+        "products": "منتجات",
+        "price": "سعر",
+        "quantity": "كمية",
+        "subTotal": "المجموع الفرعي",
+        "returnToShop": "العودة الى المتجر",
+        "updateCart": "تحديث العربة",
+        "cardTotals": "إجماليات البطاقة",
+        "shipping": "شحن",
+        "discount": "تخفيض",
+        "tax": "ضريبة",
+        "total": "المجموع",
+        "proceedToCheckout": "الشروع في الخروج"
     }
 }
