@@ -138,7 +138,9 @@
         "callUsNow": "Call us now",
         "msgCallUsNow": "we are available online from 9:00 AM to 5:00 PM (GMT95:45) Talk with use now",
         "callNow": "Call now",
-        "chatWithUs": "Chat with us"
+        "chatWithUs": "Chat with us",
+        "addToCard": "Add to card",
+        "buyNow": "Buy now"
     },
     "ar": {
         "lang": "انجليزي",
@@ -279,6 +281,8 @@
         "callUsNow": "اتصل بنا الآن",
         "msgCallUsNow": "نحن متواجدون عبر الإنترنت من الساعة 9:00 صباحًا حتى 5:00 مساءً (GMT95:45) تحدث مع الاستخدام الآن",
         "callNow": "اتصل الان",
-        "chatWithUs": "دردش معنا"
+        "chatWithUs": "دردش معنا",
+        "addToCard": "اضف الي العربه",
+        "buyNow": "شراء الان"
     }
 }

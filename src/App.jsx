@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs'
 import ContactUsTwo from './pages/ContactUsTwo'
 import Home from './pages/Home/Home'
 import LogIn from './pages/LogIn'
+import ProductDetails from './pages/ProductDetails'
 import Request from './pages/Request'
 import ServicePacks from './pages/ServicePacks'
 import SignUp from './pages/SignUp'
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/applications' element={<Applications />} />
+          <Route path='/applications/:id' element={<ProductDetails />} />
           <Route path='/contactUs' element={<ContactUs />} />
           <Route path='/login' element={<LogIn />} />
           <Route path='/signUp' element={<SignUp />} />
