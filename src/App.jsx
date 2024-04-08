@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import './index.css'
+import Applications from './pages/Applications/Applications'
 import Cart from './pages/Cart'
 import ContactUs from './pages/ContactUs'
 import ContactUsTwo from './pages/ContactUsTwo'
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/applications' element={<Applications />} />
           <Route path='/contactUs' element={<ContactUs />} />
           <Route path='/login' element={<LogIn />} />
           <Route path='/signUp' element={<SignUp />} />
