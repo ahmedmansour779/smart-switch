@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import image from "../../../shared/Home/Devices.png"
+import ItemsWhatWeCanControl from "./ItemsWhatWeCanControl"
 
 export default function WhatWeCanControl() {
     const { msgWhatWeCanControl } = useSelector((state) => state.translations.translations)
@@ -7,15 +7,16 @@ export default function WhatWeCanControl() {
 
     return (
         <div
-            style={{
-                direction: lang == "en" ? "ltr" : "rtl"
-            }}
             className="bg-[#0093FF12] py-10">
             <div className="container mx-auto flex flex-col gap-4">
-                <h1 className="text-3xl font-bold">
+                <h1
+                    style={{
+                        direction: lang == "en" ? "ltr" : "rtl"
+                    }}
+                    className="text-3xl font-bold">
                     {msgWhatWeCanControl}
                 </h1>
-                <img src={image} />
+                <ItemsWhatWeCanControl />
             </div>
         </div>
     )

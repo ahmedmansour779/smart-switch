@@ -2,6 +2,7 @@ import { Carousel } from '@mantine/carousel';
 import '@mantine/carousel/styles.css';
 import { useSelector } from 'react-redux';
 import { exampleOfWorkData } from '../../../data/exampleOfWork';
+import '../../../styles/exampleOfWorkStyle.css';
 
 export default function ExampleOfWork() {
     const { titleExampleOfWork } = useSelector((state) => state.translations.translations)
@@ -20,7 +21,6 @@ export default function ExampleOfWork() {
                 height={200}
                 slideGap="xl"
                 controlsOffset="xs"
-                controlSize={31}
                 align="start"
                 loop
                 dragFree
@@ -29,7 +29,7 @@ export default function ExampleOfWork() {
                 {
                     exampleOfWorkData.map((item, index) => {
                         return (
-                            <Carousel.Slide className='overflow-hidden' key={index}>
+                            <Carousel.Slide className='' key={index}>
                                 <div>
                                     <img
                                         className='w-full'

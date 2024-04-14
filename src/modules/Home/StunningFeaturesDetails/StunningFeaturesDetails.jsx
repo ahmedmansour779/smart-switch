@@ -14,18 +14,22 @@ export default function StunningFeaturesDetails() {
             style={{
                 direction: lang == "en" ? "ltr" : "rtl"
             }}
-            className="container mx-auto pt-16 flex lg:flex-nowrap flex-wrap flex-col md:flex-row gap-8"
+            className="container mx-auto pt-16 "
         >
-            <div className="flex flex-col gap-4 md:flex-1">
-                <h1 className="text-3xl font-medium">
-                    {stunningFeatures}
-                </h1>
-                <p className="text-sm text-light">
-                    {msgStunningFeatures}
-                </p>
-                <ItemsStunningFeatures />
+            <div className="flex flex-col gap-8">
+                <div>
+                    <h1 className="text-3xl font-medium">
+                        {stunningFeatures}
+                    </h1>
+                    <p className="text-sm text-light">
+                        {msgStunningFeatures}
+                    </p>
+                </div>
+                <div className="flex lg:flex-row flex-col-reverse gap-8">
+                    <ItemsStunningFeatures />
+                    <img src={image} className="md:flex-1" />
+                </div>
             </div>
-            <img src={image} className="md:flex-1" />
         </div>
     )
 }

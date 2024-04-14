@@ -12,9 +12,9 @@ export default function Footer() {
             style={{
                 direction: lang == "ar" ? "rtl" : "ltr"
             }}
-            className="bg-primary text-seconder py-12 font-primary flex flex-col gap-6"
+            className="bg-primary text-seconder !py-12 p-4 md:p-0 font-primary flex flex-col gap-6"
         >
-            <div className="container md:flex-row flex-col mx-auto flex md:gap-2 gap-4 justify-between">
+            <div className="container md:flex-row flex-col mx-auto flex md:gap-2 gap-12 justify-between">
                 <ContactFooter />
                 <LinksFooter />
                 <p className="flex-1 flex items-center leading-8">

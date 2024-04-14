@@ -24,7 +24,9 @@
         "business": "Business",
         "nextStep": "Next Step",
         "smartHome": "Smart Home",
-        "titleHeroHomeSection": "Smart home devices direct from the factories.👌",
+        "titleOneHeroHomeSection": "Smart home devices",
+        "titleTwoHeroHomeSection": "direct from the",
+        "titleThreeHeroHomeSection": "factories.👌",
         "msgHeroHomeSection": "Place your order today and get it directly from the factory without any hassle.",
         "tryNow": "Try Now",
         "trueOneMsgHeroHomeSection": "Connected to various smart devices",
@@ -140,7 +142,18 @@
         "callNow": "Call now",
         "chatWithUs": "Chat with us",
         "addToCard": "Add to card",
-        "buyNow": "Buy now"
+        "buyNow": "Buy now",
+        "showMore": "show more",
+        "security": "Security",
+        "curtains": "Curtains",
+        "climate": "Climate",
+        "movementOfTheTerritory": "Movement of the territory",
+        "water": "Water",
+        "multiroomSystem": "Multiroom system",
+        "heating": "Heating",
+        "lighting": "Lighting",
+        "openingDoorsAndWindows": "Opening doors and windows",
+        "otherFunctions": "Other functions"
     },
     "ar": {
         "lang": "انجليزي",
@@ -283,6 +296,17 @@
         "callNow": "اتصل الان",
         "chatWithUs": "دردش معنا",
         "addToCard": "اضف الي العربه",
-        "buyNow": "شراء الان"
+        "buyNow": "شراء الان",
+        "showMore": "رويه المزيد",
+        "security": "حماية",
+        "curtains": "ستائر",
+        "climate": "مناخ",
+        "movementOfTheTerritory": "حركة الإقليم",
+        "water": "ماء",
+        "multiroomSystem": "نظام متعدد الغرف",
+        "heating": "التدفئة",
+        "lighting": "إضاءة",
+        "openingDoorsAndWindows": "فتح الأبواب والنوافذ",
+        "otherFunctions": "وظائف أخرى"
     }
 }

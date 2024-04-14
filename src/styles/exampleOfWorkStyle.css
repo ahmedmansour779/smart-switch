@@ -1,0 +1,26 @@
+.mantine-Carousel-controls {
+    justify-content: space-between;
+    top: 50%;
+}
+
+.mantine-Carousel-control {
+    background-color: #39A2DB;
+    width: 50px;
+    height: 50px;
+    flex: none !important;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mantine-Carousel-control svg {
+    width: 30px !important;
+    height: 30px !important;
+    top: 0;
+}

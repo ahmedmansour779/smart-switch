@@ -1,4 +1,5 @@
 import { IconBaselineDensityMedium, IconBatteryCharging, IconCamera, IconPhoto, IconPropeller, IconWifi } from "@tabler/icons-react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
 
 export default function ItemsStunningFeatures() {
@@ -14,11 +15,14 @@ export default function ItemsStunningFeatures() {
         strongControlPanel,
         msgStrongControlPanel,
         wirelessConnect,
-        msgWirelessConnect
+        msgWirelessConnect,
+        showMore
     } = useSelector((state) => state.translations.translations)
+    const [show, setShow] = useState(false)
+
     return (
-        <div className="flex md:flex-nowrap flex-wrap gap-4">
-            <div className="flex flex-col gap-4">
+        <div className="flex md:flex-row flex-col md:flex-nowrap flex-wrap gap-4 h-full">
+            <div className="flex flex-col gap-8">
                 <div className="flex gap-2">
                     <div className="bg-primary w-12 h-12 flex items-center justify-center rounded-full">
                         <IconCamera color="white" size={20} />
@@ -47,7 +51,13 @@ export default function ItemsStunningFeatures() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-4">
+            <p
+                onClick={() => setShow(true)}
+                className={`md:hidden text-primary underline hover:cursor-pointer text-center ${show ? "hidden" : "block"}`}
+            >
+                {showMore}
+            </p>
+            <div className={`md:flex flex-col gap-8 ${show ? "flex" : "hidden"}`}>
                 <div className="flex gap-2">
                     <div className="bg-primary w-12 h-12 flex items-center justify-center rounded-full">
                         <IconPropeller color="white" size={20} />
