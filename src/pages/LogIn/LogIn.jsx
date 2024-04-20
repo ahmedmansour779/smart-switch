@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux"
 import SloganForm from "../../components/Form/SloganForm"
-import Header from "../../components/Header"
 import LoginForm from "../../modules/Login/LoginForm"
 
 export default function LogIn() {
@@ -11,10 +10,8 @@ export default function LogIn() {
                 direction: lang == "en" ? "ltr" : "rtl"
             }}
         >
-            <div className="sm:hidden fixed w-full">
-                <Header />
-            </div>
-            <div className="flex">
+
+            <div className="flex md:flex-row flex-col">
                 <SloganForm />
                 <LoginForm />
             </div>
