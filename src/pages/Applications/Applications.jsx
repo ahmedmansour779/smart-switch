@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header";
 import FilterApplications from "../../modules/Applications/FilterApplications";
+import FilterMobile from "../../modules/Applications/FilterMobile";
 import ItemsApplications from "../../modules/Applications/ItemsApplications";
 import TitleApplications from "../../modules/Applications/TitleApplications";
 
@@ -11,6 +12,7 @@ export default function Applications() {
         <>
             <Header />
             <TitleApplications />
+            <FilterMobile />
             <div
                 style={{
                     direction: lang == "en" ? "ltr" : "rtl"

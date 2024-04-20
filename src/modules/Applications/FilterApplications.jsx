@@ -4,7 +4,7 @@ import PriceRange from "./PriceRange";
 
 export default function FilterApplications() {
     return (
-        <div className="flex flex-col gap-2">
+        <div className="md:flex flex-col gap-2 hidden">
             <CategoryFilterSection />
             <hr />
             <PriceRange />

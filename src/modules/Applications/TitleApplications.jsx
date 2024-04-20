@@ -14,7 +14,7 @@ export default function TitleApplications() {
             style={{
                 direction: lang == "en" ? "ltr" : "rtl"
             }}
-            className="py-12 text-center flex flex-col gap-4">
+            className="py-12 text-center flex flex-col gap-4 md:bg-transparent bg-[#F7F7F7]">
             <p className="text-2xl font-medium uppercase">
                 {route.pathname.slice(1)} {">"} central heating
             </p>
