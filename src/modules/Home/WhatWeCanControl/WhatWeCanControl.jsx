@@ -7,7 +7,7 @@ export default function WhatWeCanControl() {
 
     return (
         <div
-            className="bg-[#0093FF12] py-10">
+            className="bg-[#0093FF12] py-10 overflow-hidden">
             <div className="container mx-auto flex flex-col gap-4">
                 <h1
                     style={{
