@@ -25,7 +25,7 @@ export default function ItemsApplications() {
                         emptyStar.push(i);
                     }
                     return (
-                        <Link to={`/applications/${item.id}`}
+                        <div
                             key={index}
                             className="border border-solid border-[#E4E7E9] rounded-md p-8 flex flex-col gap-8 items-center relative">
                             <img
@@ -71,7 +71,7 @@ export default function ItemsApplications() {
                                     ${item.price}
                                 </p>
                             </div>
-                        </Link>
+                        </div>
                     )
                 })}
             </div>

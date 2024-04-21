@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header";
 import ButtonsSectionProductDetails from "../../modules/ProductDetails/ButtonsSectionProductDetails";
 import ColorInput from "../../modules/ProductDetails/ColorInput";
+import ImagesSwitch from "../../modules/ProductDetails/ImagesSwitch";
 import PriceAndOffer from "../../modules/ProductDetails/PriceAndOfer";
 import QuantityProductDetails from "../../modules/ProductDetails/QuintityProductDetails";
 import ShareSection from "../../modules/ProductDetails/ShereSection";
@@ -31,10 +32,9 @@ export default function ProductDetails() {
                 }}
                 className="container mx-auto py-28 grid grid-cols-1 md:grid-cols-2 gap-8"
             >
-
-                <img
-                    src={product.image}
-                    alt={product.title} />
+                <ImagesSwitch
+                    product={product}
+                />
                 <div className="flex flex-col gap-4">
                     <p className="text-2xl ">
                         {product.title}
