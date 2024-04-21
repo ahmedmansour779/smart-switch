@@ -10,7 +10,6 @@ export default function LogIn() {
                 direction: lang == "en" ? "ltr" : "rtl"
             }}
         >
-
             <div className="flex md:flex-row flex-col">
                 <SloganForm />
                 <LoginForm />

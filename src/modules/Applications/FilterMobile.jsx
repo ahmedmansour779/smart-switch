@@ -37,7 +37,7 @@ export default function FilterMobile() {
 
     return (
         <div
-            className="font-primary w-full flex flex-col justify-center items-center gap-4 bg-[#F7F7F7] pb-12"
+            className="font-primary w-full md:hidden flex flex-col justify-center items-center gap-4 bg-[#F7F7F7] pb-12"
         >
             <div className="w-fit flex gap-2 items-center justify-center">
                 <label>{category}:</label>

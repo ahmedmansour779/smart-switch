@@ -12,7 +12,7 @@ export default function SloganForm() {
 
     return (
         <div className="h-lvh bg-primary md:flex-[2] flex relative">
-            <div className="absolute w-full flex md:justify-start justify-center top-4">
+            <div className="absolute w-full flex md:justify-start justify-center top-4 md:left-4">
                 <Slogan />
             </div>
             <div className="bg-white w-fit p-2 flex flex-col items-center gap-1 rounded-lg absolute top-1/4 right-8 z-30">
