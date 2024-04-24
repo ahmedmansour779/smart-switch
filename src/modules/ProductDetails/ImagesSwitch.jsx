@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { useState } from "react";
-import { Navigation } from 'swiper/modules';
+import { Keyboard, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { imagesSwitchData } from "../../data/imagesSwitchData";
 import "../../styles/swiperDetailsProductPage.css";
@@ -24,11 +24,14 @@ export default function ImagesSwitch({ product }) {
                     slidesPerView={1}
                     controller
                     loop
+                    keyboard={{
+                        enabled: true,
+                    }}
+                    modules={[Navigation, Keyboard]}
                     navigation={{
                         prevEl: '.swiper-button-prev',
                         nextEl: '.swiper-button-next',
                     }}
-                    modules={[Navigation]}
                     breakpoints={{
                         640: {
                             slidesPerView: 3,
